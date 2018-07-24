@@ -1,0 +1,17 @@
+{
+  "name": "ROEL CANTU",
+  "description": "portfolio",
+  "main": "roelcantusportfolio",
+  "authors": [
+    "roelcantu <roelhcantu@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
