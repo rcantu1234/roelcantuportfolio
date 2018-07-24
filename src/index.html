@@ -1,19 +1,205 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html id="resume">
 <head>
-  <meta charset="utf-8">
-  <title>Roelcantusportfolio</title>
-  <base href="/">
+	<meta charset="utf-8">
+	<title>Roel Cantu's Resume</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" type="text/css" href="./css/resume.css"/> -->
+  <link rel="stylesheet" href="styles.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <h1>test</h1>
-  <app-root></app-root>
+	<!-- <div class="download-links">
+		<a class="doc" href="https://docs.google.com/document/d/1mmo9ngvZ__LWhaVxEddshxSrcXZB51F-j8BICPeyBkw/edit?usp=sharing" target="_blank">View In Google Docs</a>
+		<a class="pdf" href="https://docs.google.com/document/d/1mmo9ngvZ__LWhaVxEddshxSrcXZB51F-j8BICPeyBkw/export?format=pdf">Download PDF</a>
+	</div> -->
+	<div class="paper" itemscope itemtype="http://schema.org/Person">
+		<div id="personal-overview" class="main-col">
+			<h1 itemprop="name">Roel Cantu</h1>
+			<div itemprop="jobTitle">Java/J2EE Full-Stack Developer | HTML & CSS</div>
+			<meta itemprop="isicV4" content="7371" />
+			<meta itemprop="naics" content="541511" />
+		</div>
+		<div id="contact-details" class="side-col">
+			<span itemprop="homeLocation">Austin, TX</span><br />
+			<A itemprop="telephone" href="tel:5129819768">(512) 981-9768</A><br />
+			<A itemprop="email" href="mailto:roel.cantu@yahoo.com">roel.cantu@yahoo.com</A><br />
+			<A itemprop="url" href="https://www.linkedin.com/feed/">LinkedIn Profile</A><br />
+		</div>
+
+		<div class="clear-n-margin"></div>
+
+		<div id="work-skills" class="side-col">
+			<section>
+				<h2>Skills</h2>
+				<p>2 years experience in HTML, CSS, jQuery/JavaScript, Java/J2EE, MySQL, and Git.</p>
+				<p>Business professionalism, thoroughness, attention to detail &amp; excellent communication skills.</p>
+			</section>
+		</div>
+
+		<div id="work-experience" class="main-col">
+			<h2>Experience</h2>
+
+			<section itemprop="worksFor" itemscope itemtype="">
+				<h3>
+					<span itemprop="name" class="organization-name">APEX Systems/Lockheed Martin</span>
+					<span itemprop="address" class="organization-location">Fort Worth, TX</span>
+					<span class="organization-title">Software Engineer</span>
+				</h3>
+				<div itemscope itemtype="http://schema.org/EmployeeRole">
+					<meta itemprop="roleName" content="Software Engineer" />
+					<div class="organization-duration">
+						<span itemprop="startDate">February 2018</span>
+						-
+						<span itemprop="endDate">Present</span>
+					</div>
+					<div itemprop="description">
+						<p>		Developed programs in Angular, Java/J2EE, JavaScript , Spring, Hibernate, HTML,
+							CSS, Bootstrap, and Oracle SQL.</p>
+						<p>Develop application program logic from customer-defined specifications.</p>
+						<p>Design, implement and maintain Java applications within all phases of the SDLC.</p>
+						<p>Develop, design, code, test, debug, document, and install programs.</p>
+						<p>Knowledge of source control concepts and tools, such as Git and Maven.</p>
+						<p>Solid CS fundamentals : OOP, data structures, design patterns, etc.,</p>
+						<p>Imported and exported Excel files through Java and SQL.</p>
+					</div>
+				</div>
+			</section>
+
+			<section itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+				<h3>
+					<span itemprop="name" class="organization-name">Bank of America</span>
+					<span itemprop="address" class="organization-location">Austin, TX</span>
+					<span class="organization-title">Operations Specialist III</span>
+				</h3>
+				<div itemscope itemtype="">
+					<meta itemprop="roleName" content="Operations Specialist III" />
+					<div class="organization-duration">
+						<span itemprop="startDate">August 2017</span>
+						-
+						<span itemprop="endDate">January 2018</span>
+					</div>
+					<div itemprop="description">
+						<p>Indexing of data.</p>
+						<p>Data manipulation with formulas, Vlookups, and pivot tables using Excel.</p>
+						<p>File migration and management.</p>
+						<p>Disposition of records.</p>
+						<p>Collaboration across multiple lines of businesses.</p>
+					</div>
+				</div>
+			</section>
+
+			<section itemprop="alumniOf" itemscope itemtype="">
+				<h3>
+					<span itemprop="name" class="organization-name">Indeed.com</span>
+					<span itemprop="address" class="organization-location">Austin, TX</span>
+					<span class="organization-title">Database Maintenance Operator</span>
+				</h3>
+				<div itemscope itemtype="http://schema.org/EmployeeRole">
+					<meta itemprop="roleName" content="Database Maintenance Operator" />
+					<div class="organization-duration">
+						<span itemprop="startDate">November 2016</span>
+						-
+						<span itemprop="endDate">July 2017</span>
+					</div>
+					<div itemprop="description">
+						<p>Matching City / Country data in the Indeed database with those that are in an OECD data set.
+						This will enable Indeed to develop metro area job statistics as opposed to data at a pure city level.</p>
+						<p>Find duplicate locations within the Indeed data set and confirm the correct region (state or provide) the city it belongs in.</p>
+						<p>	Perform sport checking of OECD data core area vs. hinterland area-confirming that cities listed as hinterland of OECD data are close
+							enough form a geographic perspective to be considered part of the metro area of a city.</p>
+						<p>Identify any locations with non-sensical names in the OECD data set and remove from Excel
+							spreadsheets and Google Docs.</p>
+						<p>For any locations that don’t match correct names in the OECD set to align to the Indeed data set.</p>
+					</div>
+				</div>
+			</section>
+
+
+			<h2>Sample Projects</h2>
+			<section>
+				<h3>Ecommerce Product Layout</h3>
+				<p>
+					Product pages need to fit a lot of content on a single page without distracting the user.
+					A shortcut is this three-tabbed layout, which lets the user quickly switch between three
+					different need-to-know descriptions.
+				</p>
+
+				<a href="https://ecommerceproductlayout.herokuapp.com"><img src="assets/images/eCommerce.png" style="width: 600px; height: 300px;" alt="eCommerce"></a>
+
+				<p class="links">
+					<A target="_blank" href="https://ecommerceproductlayout.herokuapp.com">https://ecommerceproductlayout.herokuapp.com</A>
+				</p>
+			</section>
+
+			<!-- <section>
+				<h3>ProductFinder</h3>
+				<p>
+					ProductFinder is iboats.com's proprietary e-commerce app platform.
+					Allows for simplified development &amp; maintenance of custom web apps &amp; administration tools.
+					E-commerce web apps built upon ProductFinder have top-tier SEO rankings with industry-leading sales &amp; revenue in their markets.
+				</p>
+				<p class="links">
+					<A target="_blank" href="http://boatcovers.iboats.com/">http://boatcovers.iboats.com</A>  |  <A target="_blank" href="http://boatpropellers.iboats.com/">http://boatpropellers.iboats.com/</A>
+				</p>
+			</section> -->
+
+			<section>
+				<h3>Layouts and Navigation</h3>
+				<p>
+          This card layout web page is effective for its ease with mobile responsive sites
+          and it’s satisfyingly structured aesthetic.  Designed to demonstrate structure of
+          common Web pages.
+				</p>
+
+        <a href="https://cardlayoutapp.herokuapp.com/"><img src="assets/images/pageLayout.png" style="width: 600px; height: 300px;" alt="pageLayout"></a>
+
+				<p class="links">
+					<A target="_blank" href="https://cardlayoutapp.herokuapp.com/">https://cardlayoutapp.herokuapp.com//</A>
+				</p>
+			</section>
+
+			<h2>Education</h2>
+			<section>
+				<h3>
+					<span class="organization-name">University of Phoenix</span>
+					<span class="organization-location">Austin, TX</span>
+					<span class="organization-title">Information Technology : Software Engineering</span>
+				</h3>
+				<div class="organization-duration">July 2009 - January 2012</div>
+				<h3>
+					<span class="organization-name">Texas State Technical College</span>
+					<span class="organization-location">Harlingen, TX</span>
+					<span class="organization-title">Biomedical Equipment Technology</span>
+				</h3>
+				<div class="organization-duration">January 2005 - December 2006</div>
+			</section>
+		</div>
+
+		<div id="other-attributes" class="side-col">
+			<section>
+				<h2>Spoken Languages</h2>
+				<p>English &amp; Spanish fluency.</p>
+			</section>
+
+			<section>
+				<h2>References</h2>
+				<p>Available upon request.</p>
+			</section>
+
+			<section>
+				<h2>Awards</h2>
+				<p>Deans List Twice</p>
+			</section>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="isMobile"></div>
+	<div id="isPhone"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
 </body>
 </html>
